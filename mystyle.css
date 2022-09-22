@@ -10,21 +10,20 @@ html{
 
 #container {
     display: grid;
-    grid-gap: 1em;
-    grid-template-rows: repeat(var(--grid-rows), 1fr);
-    grid-template-columns: repeat(var(--grid-cols), 1fr);
+    grid-template-rows: repeat(var(--grid-rows), 45px);
+    grid-template-columns: repeat(var(--grid-cols), 45px);
+    font-size: 15px;
   }
   
 .grid-item {
-    padding: 1em;
-    border: 1px solid #ddd;
+    padding: 10px 0;
+    border: 1px solid rgb(0, 0, 0);
     text-align: center;
+    background-color: wheat;
   }
 
 .grid-item:hover {
-    background-color: red;
-    opacity: 1;
-    transition: all 0.5s ease-out;
+    opacity: 0.1;
   }
 
 #btn{
